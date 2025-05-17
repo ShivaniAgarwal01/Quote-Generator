@@ -9,7 +9,7 @@ function App() {
       try {
          const response = await fetch('https://api.api-ninjas.com/v1/quotes' , {
           headers :{
-            'X-Api-Key' : 'lQBOYUOWNz3SY9KKMu5XhA==rMqvLek0lBYxwubv'
+            'X-Api-Key' : 'YOUR-API-KEY'
           }
          });
         const data = await response.json();
