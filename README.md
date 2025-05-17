@@ -36,7 +36,9 @@ cd quote-of-the-day
  **API Key**
 This app uses API Ninjas Quotes API.
 -Sign up at api-ninjas.com
+
 -Get your X-Api-Key
+
 -Replace the key in the fetch headers in App.jsx:
 
 headers: {
